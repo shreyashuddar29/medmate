@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedMate Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contact">
+        <form action="https://api.web3forms.com/submit" method="POST" id="form" >
+            <h2>Contact Us</h2>
+            <input type="hidden" name="access_key" value="165241f9-5382-40cc-b6a5-d8ea500f8240">
+            <input type="text" name="name" id="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email"required>
+            <input type="tel" name="number" id="number" placeholder="Phone Number"required>
+            <textarea name="message" id="suggestion" rows="4" placeholder="Please give your feedback"required></textarea>
+            <button type="submit" id="send">Submit</button>
+            
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
